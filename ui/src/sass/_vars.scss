@@ -1,0 +1,62 @@
+/**
+ * Variables and Bootstrap overrides
+ */
+
+// Colors
+//...............
+$primary-color: #dc1656;
+$secondary-color: #413c35;
+$tertiary-color: #48c61e;
+$danger-color: #d5525b;
+$warning-color: #ebb75a;
+$info-color: #668aa8;
+$default-color: #f3f2eb;
+$dark-color: #828178;
+$lighter-color: #ffffff;
+$light-color: #e5e5dc;
+$gray-dark: #b3b3aa;
+//$text-color
+$footer-secondary-color: #312c29;
+
+$banner-primary-color: #6fa366;
+$banner-secondary-color: #439827;
+
+$body-bg: #fff;
+$text-color: $secondary-color;
+
+// Fonts
+//...............
+$primary-font: Helvetica, Arial, sans-serif;
+$secondary-font: Georgia, Times, serif;
+
+$font-size: 13px;
+
+// Buttons
+//...............
+$buttons-transition: background 0.1s linear;
+
+// Common placeholders
+//...............
+%background-primary-color {
+  background-color: $primary-color;
+}
+
+%color-primary-color {
+  color: $primary-color;
+}
+
+%background-secondary-color {
+  background-color: $secondary-color;
+}
+
+%color-secondary-color {
+  color: $secondary-color;
+}
+
+%background-tertiary-color {
+  background-color: $tertiary-color;
+}
+
+%color-tertiary-color {
+  color: $tertiary-color;
+}
