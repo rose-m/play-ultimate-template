@@ -1,9 +1,14 @@
+import play.Project._
+
 name := "template"
 
 version := "1.0-SNAPSHOT"
 
 libraryDependencies ++= Seq(
-  "play4jpa" %% "play4jpa" % "0.3-SNAPSHOT",
+  javaCore,
+  javaJdbc,
+  javaJpa.exclude("org.hibernate.javax.persistence", "hibernate-jpa-2.0-api"),
+  "org.hibernate" % "hibernate-entitymanager" % "4.3.5.Final",
   "commons-codec" % "commons-codec" % "1.4",
   cache
 )
